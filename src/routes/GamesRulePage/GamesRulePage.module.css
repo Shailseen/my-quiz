@@ -1,0 +1,42 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.185);
+  backdrop-filter: blur(8px);
+  width: fit-content;
+  padding: 1rem;
+  margin: 3rem auto;
+  border-radius: 4px;
+}
+.container > ol {
+  padding: 1.5rem;
+}
+.container > ol > li {
+  margin: 0.5rem 0rem;
+  font-size: 1.3rem;
+}
+.center {
+  margin: 0rem auto;
+  width: fit-content;
+}
+.green {
+  color: rgb(10, 213, 10);
+}
+.red {
+  color: red;
+}
+.start_btn {
+  width: 10rem;
+  color: black;
+  font-size: 1.1rem;
+  margin: 1rem auto;
+}
+
+.btn_link {
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 20rem;
+  }
+}

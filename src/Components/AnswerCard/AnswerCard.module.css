@@ -1,0 +1,48 @@
+.card_container {
+  margin: 2rem auto;
+  width: 30rem;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.185);
+  backdrop-filter: blur(8px);
+}
+.card_container > p {
+  font-size: 1.3rem;
+}
+.option_container {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  cursor: text;
+}
+.non_selected {
+  background-color: black;
+  color: red;
+}
+.selected {
+  background-color: black;
+  color: #00ff00;
+}
+.no_change {
+  background-color: black;
+  color: var(--primary-color);
+}
+.answer {
+  border: 2px solid #00ff00;
+  width: fit-content;
+  background-color: black;
+  color: #00ff00;
+  /* color: #00ff00; */
+  height: fit-content;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.5rem;
+}
+
+@media only screen and (max-width: 450px ) {
+  .card_container {
+    width: 20rem;
+  }
+}

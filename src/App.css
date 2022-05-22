@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: rgb(0, 229, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-decoration-none {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body { 
+  background: url("./assets/luke-chesser-pJadQetzTkI-unsplash.jpg") no-repeat 
+    center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.outline-button {
+  background-color: black;
+  width: 5rem;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.outline-button:hover {
+  background-color: var(--primary-color);
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.solid-button:hover{
+  background-color: var(--primary-color);
 }

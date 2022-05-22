@@ -1,0 +1,23 @@
+.quiz_level_container {
+    
+}
+
+.choice_container {
+    font-size: 3rem;
+    margin: 2rem auto;
+    width: 13rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    cursor: pointer;
+    box-shadow: var(--primary-color) 0px 1px 2px 0px, var(--primary-color) 0px 2px 6px 2px;
+}
+.header {
+    margin: 1rem auto;
+    width: fit-content;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    padding: 1rem;
+    box-shadow: var(--primary-color) 0px 1px 2px 0px, var(--primary-color) 0px 2px 6px 2px;
+}

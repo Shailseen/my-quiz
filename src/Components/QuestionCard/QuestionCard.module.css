@@ -1,0 +1,35 @@
+.card_container {
+  margin: 2rem auto;
+  width: 30rem;
+}
+.card_container > p {
+  font-size: 1.3rem;
+  height: 4rem;
+}
+.option_container {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.non_selected {
+  background-color: black;
+  color: var(--primary-color);
+}
+.selected {
+  background-color: var(--primary-color);
+  color: black;
+}
+
+@media only screen and (max-width: 450px ) {
+  body{
+    font-size: 10px;
+  }
+  .card_container {
+    width: 20rem;
+  }
+
+  .card_container > p {
+    height: 6rem;
+  }
+}
